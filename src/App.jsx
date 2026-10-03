@@ -273,7 +273,11 @@ function App() {
           </div>
         </section>
 
-        <p className="note">タスクはこのブラウザの中だけに保存されます。</p>
+        <p className="note">
+          タスクはこのブラウザの中だけに保存されます。
+          <br />
+          <a href="solar/">3D の太陽系ビューアも見る</a>
+        </p>
       </main>
 
       <div className="toast-region" role="status" aria-live="polite">

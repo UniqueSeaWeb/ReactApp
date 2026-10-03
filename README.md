@@ -17,6 +17,12 @@ React + Vite で作成したシンプルな ToDo 管理アプリです。
 - フィルタボタンは `aria-pressed`、件数表示は `role="status"` で支援技術に状態を通知
 - `:focus-visible` によるキーボードフォーカスの可視化
 
+## 公開 URL
+
+https://uniqueseaweb.github.io/ReactApp/
+
+`main` ブランチへのプッシュで GitHub Actions（`.github/workflows/deploy.yml`）により GitHub Pages へ自動デプロイされます。
+
 ## 使い方
 
 ```bash

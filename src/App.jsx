@@ -276,7 +276,9 @@ function App() {
         <p className="note">
           タスクはこのブラウザの中だけに保存されます。
           <br />
-          <a href="solar/">3D の太陽系ビューアも見る</a>
+          <a href="solar/">3D の太陽系ビューア</a>
+          {' ・ '}
+          <a href="titan/">立体機動ゲーム WIRE BLADE</a>
         </p>
       </main>
 

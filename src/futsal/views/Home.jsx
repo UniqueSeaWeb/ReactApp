@@ -30,6 +30,9 @@ export default function Home({ notify }) {
   return (
     <main id="main" className="page home">
       <header className="hero">
+        <p className="crumb">
+          <a href="../">アプリ一覧</a>
+        </p>
         <h1>フットサル大会メーカー</h1>
         <p>大会を作って URL を共有するだけ。対戦表の自動作成、得点入力、順位表までスマホで完結します。</p>
       </header>

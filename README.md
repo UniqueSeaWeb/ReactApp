@@ -1,11 +1,14 @@
-# React ToDo アプリ ＆ 3D コンテンツ ＆ フットサル大会
+# React アプリ集（ToDo ＆ 3D コンテンツ ＆ フットサル大会）
 
-React + Vite で作成した 4 つのページからなる Web アプリです。
+React + Vite で作成した Web アプリ集です。トップページ（`/`）のアプリ一覧から各アプリを起動できます。
 
-- **フットサル大会メーカー**（`/futsal/`）: 大会ごとの URL で対戦表・得点・順位を共有する大会運営アプリ
-- **ToDo アプリ**（`/`）: シンプルな ToDo 管理
+- **アプリ一覧**（`/`）: 各アプリへのリンクを並べたトップページ（JavaScript 不要の静的ページ）
+- **ToDo アプリ**（`/todo/`）: シンプルな ToDo 管理
 - **太陽系ビューア**（`/solar/`）: three.js で描いた 3D の太陽系
 - **WIRE BLADE 巨人討伐**（`/titan/`）: 立体機動で巨人と戦う 3D アクションゲーム（スマホ横持ち対応）
+- **フットサル大会メーカー**（`/futsal/`）: 大会ごとの URL で対戦表・得点・順位を共有する大会運営アプリ
+
+各アプリの画面にある「アプリ一覧」リンクからトップページへ戻れます。
 
 ## フットサル大会メーカー
 
@@ -100,7 +103,7 @@ three.js（`@react-three/fiber` / `@react-three/drei`）で、太陽と 8 つの
 
 ## 公開 URL
 
-https://uniqueseaweb.github.io/ReactApp/
+https://uniqueseaweb.github.io/ReactApp/ （アプリ一覧）
 
 `main` ブランチへのプッシュで GitHub Actions（`.github/workflows/deploy.yml`）により GitHub Pages へ自動デプロイされます。
 

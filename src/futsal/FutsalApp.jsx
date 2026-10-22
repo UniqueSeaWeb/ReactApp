@@ -162,7 +162,7 @@ function Tournament({ slug, rest, notify }) {
       <header className="t-header">
         <div className="page">
           <p className="crumb">
-            <a href="#/">フットサル大会メーカー</a>
+            <a href="../">アプリ一覧</a> <span aria-hidden="true">／</span> <a href="#/">フットサル大会メーカー</a>
           </p>
           <h1 className="t-title">{data.name}</h1>
           <p className="t-meta">

@@ -3,14 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="React で作成したシンプルな ToDo 管理アプリ" />
+    <meta name="description" content="ToDo アプリ、3D の太陽系ビューア、立体機動ゲーム、フットサル大会メーカーの一覧です。" />
     <meta name="color-scheme" content="light dark" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <title>ToDo アプリ</title>
+    <link rel="stylesheet" href="/src/launcher.css" />
+    <title>アプリ一覧 | React App</title>
   </head>
   <body>
-    <div id="root"></div>
-    <noscript>このアプリを利用するには JavaScript を有効にしてください。</noscript>
-    <script type="module" src="/src/main.jsx"></script>
+    <header class="hero">
+      <h1>アプリ一覧</h1>
+      <p>React + Vite で作った Web アプリです。遊びたいものを選んでください。</p>
+    </header>
+    <main>
+      <ul class="apps">
+        <li>
+          <a class="app" href="todo/">
+            <img src="/favicon.svg" alt="" width="56" height="56" />
+            <span class="app__body">
+              <span class="app__name">ToDo アプリ</span>
+              <span class="app__desc">タスクの追加・完了・削除。データはこのブラウザに保存されます。</span>
+              <span class="app__tags">スマホ / PC</span>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a class="app" href="solar/">
+            <img src="/solar-favicon.svg" alt="" width="56" height="56" />
+            <span class="app__body">
+              <span class="app__name">3D 太陽系ビューア</span>
+              <span class="app__desc">太陽と 8 つの惑星の公転を 3D で。惑星を選ぶと大きさや公転周期を表示します。</span>
+              <span class="app__tags">スマホ / PC ・ 3D</span>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a class="app" href="titan/">
+            <img src="/titan-favicon.svg" alt="" width="56" height="56" />
+            <span class="app__body">
+              <span class="app__name">WIRE BLADE 巨人討伐</span>
+              <span class="app__desc">ワイヤーとガスで街と森を飛び回り、巨人のうなじを斬る立体機動アクション。</span>
+              <span class="app__tags">スマホ横持ち / PC ・ 3D ゲーム</span>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a class="app" href="futsal/">
+            <img src="/futsal-favicon.svg" alt="" width="56" height="56" />
+            <span class="app__body">
+              <span class="app__name">フットサル大会メーカー</span>
+              <span class="app__desc">大会を作って URL を共有。対戦表の自動作成、得点入力、順位表まで。</span>
+              <span class="app__tags">スマホ / PC</span>
+            </span>
+          </a>
+        </li>
+      </ul>
+    </main>
   </body>
 </html>

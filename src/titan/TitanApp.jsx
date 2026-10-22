@@ -501,7 +501,7 @@ export default function TitanApp() {
             </details>
             <a className="text-link" href="../">
               <Icon name="back" />
-              ToDo に戻る
+              アプリ一覧へ
             </a>
           </div>
         </section>

@@ -37,9 +37,10 @@ export default defineConfig(({ mode }) => {
       // three.js を含む太陽系ビューアのチャンクは約 1MB（gzip 約 260KB）になるため上限を緩める
       chunkSizeWarningLimit: 1100,
       rollupOptions: {
-        // ToDo アプリ（/）・太陽系ビューア（/solar/）・巨人討伐ゲーム（/titan/）・フットサル大会（/futsal/）の 4 ページ構成
+        // アプリ一覧（/）と、ToDo（/todo/）・太陽系ビューア（/solar/）・巨人討伐ゲーム（/titan/）・フットサル大会（/futsal/）の 5 ページ構成
         input: {
           main: resolve(import.meta.dirname, 'index.html'),
+          todo: resolve(import.meta.dirname, 'todo/index.html'),
           solar: resolve(import.meta.dirname, 'solar/index.html'),
           titan: resolve(import.meta.dirname, 'titan/index.html'),
           futsal: resolve(import.meta.dirname, 'futsal/index.html'),

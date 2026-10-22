@@ -102,7 +102,7 @@ export default function SolarApp() {
       <header className="topbar">
         <a className="back-link" href="../">
           <Icon name="back" />
-          <span>ToDo に戻る</span>
+          <span>アプリ一覧へ</span>
         </a>
         <div className="title">
           <h1>太陽系ビューア</h1>
